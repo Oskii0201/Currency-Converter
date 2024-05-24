@@ -31,11 +31,11 @@ export function Converter({currencyOptions}: ConverterProps){
         setConvertedAmount(amount * conversionRate);
     }, [amount, conversionRate]);
 
-    const handleFromCurrencyChange = (selectedOption: SelectedOption) => {
+    const handleFromCurrencyChange = (selectedOption: any) => {
         setFromCurrency(selectedOption);
     };
 
-    const handleToCurrencyChange = (selectedOption: SelectedOption) => {
+    const handleToCurrencyChange = (selectedOption: any) => {
         setToCurrency(selectedOption);
         setConversionRate(rates[selectedOption.value]);
     };
