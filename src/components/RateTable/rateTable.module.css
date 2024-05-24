@@ -1,0 +1,23 @@
+.card{
+    padding: 0 15px;
+    position: relative;
+}
+.rateTable{
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px 0 #b3bbc673;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.select{
+    max-width: 70%;
+    margin: 5px 0;
+}
