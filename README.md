@@ -12,7 +12,7 @@ This is a simple Currency Converter application built using ReactJS and TypeScri
 
 ## Demo
 
-Check out the live demo [here](#).
+Check out the live demo [here](https://currency-converter-od.netlify.app/).
 
 ## Features
 
